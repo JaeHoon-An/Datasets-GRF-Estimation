@@ -1,9 +1,10 @@
 # Datasets-GRF-Estimation
 Datasets for training a two-staged MLP network to estimate ground reaction force in a two-DoF point-foot robot.
 
-[ A. Datasets for GRF estimation (First stage MLP).csv ]
+Cite this repository: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8219866.svg)](https://doi.org/10.5281/zenodo.8219866)
+## A. Datasets for GRF estimation (First stage MLP).csv
 
- In the above CSV file, each collum denotes the following states of the robot.
+### In the above CSV file, each collum denotes the following states of the robot.
  
  1: Current Position of Hip Pitch Joint
  
@@ -36,9 +37,9 @@ Datasets for training a two-staged MLP network to estimate ground reaction force
  15: Current Ground Reaction Force (Ground-truth)
 
 
-[ B. Datasets for Sim2Real transfer (Second stage MLP).csv ]
+## B. Datasets for Sim2Real transfer (Second stage MLP).csv
  
- In the above CSV file, each collum denotes the following states of the robot.
+### In the above CSV file, each collum denotes the following states of the robot.
 
  1: Estimated Ground Reaction Force from the First Stage MLP Network
  
